@@ -1,7 +1,7 @@
 require_relative '../lib/web_scraper'
 
-describe Weekend_tips do
-  test_scraper = Weekend_tips.new
+describe WeekendTips do
+  test_scraper = WeekendTips.new
   wrong = 26
   right = 6
 

@@ -2,7 +2,7 @@ require 'nokogiri'
 require 'open-uri'
 require 'byebug'
 
-class Weekend_tips
+class WeekendTips
   def initialize; end
 
   def input_check(input)
@@ -14,8 +14,8 @@ class Weekend_tips
   end
 
   def tip_detail(value)
-    url = 'https://footballwhispers.com/blog/todays-betting-tips/'
-    parsed = Nokogiri::HTML(URI.open(url))
+    url = URI.parse('https://footballwhispers.com/blog/todays-betting-tips/').open
+    parsed = Nokogiri::HTML(url)
     parsed.search('p')[value + 33].text
   end
 end

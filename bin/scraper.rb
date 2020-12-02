@@ -5,7 +5,7 @@ require 'byebug'
 require_relative '../lib/web_scraper'
 
 def welcome
-  new_tips = Weekend_tips.new
+  new_tips = WeekendTips.new
   input = ''
   loop do
     puts 'Welcome to this app where you get weekly fooball predictions and experts opinion on football matches'
