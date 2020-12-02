@@ -1,5 +1,5 @@
 # web_scraper_bot
-this is a milestone project for building a bot that scraps selected data from a web page
+this is a Ruby Capstone project for building a bot that scraps selected data from a web page
  This program's purpose is to scan a webpage and take relevant data from it. This project provides useful soccer tips.
 
 In this project, user will find 24 weekely soccer tips from experts.
@@ -48,14 +48,14 @@ Step 3: Install necessary dependencies
 Step 4: Run the app
 
 ```
-'bin/webscraper.rb'
+'bin/scraper.rb'
 ```
 ## How to Test
 1. Clone the repo to your local folder
 2. cd into the folder
 3. install rspec by gem install rspec
 4. Run rspec .
-5. 15 examples, 0 failures will be output.
+5. 3 examples, 0 failures will be output.
 ​
 
 ## Author
