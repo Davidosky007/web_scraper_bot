@@ -1,11 +1,8 @@
 # web_scraper_bot
 this is a milestone project for building a bot that scraps selected data from a web page
+ This program's purpose is to scan a webpage and take relevant data from it. This project provides useful soccer tips.
 
-# ruby_web_scraper
-
-> This program's purpose is to scan a webpage and take relevant data from it. This project provides useful meditation tips to further enhance someone's meditation skill.
-
-In this project, user will find 10 best tips for meditation beginners.
+In this project, user will find 24 weekely soccer tips from experts.
 
 ## Built With
 
@@ -23,7 +20,6 @@ In this project, user will find 10 best tips for meditation beginners.
 
 ### How_to_use
 
-![video](./asset/bot_capstone.png)
 
 ### Prerequisites
 
