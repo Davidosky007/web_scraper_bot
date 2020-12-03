@@ -1,4 +1,4 @@
-# web_scraper_bot
+# Web_scraper_bot
 this is a Ruby Capstone project for building a bot that scraps selected data from a web page
  This program's purpose is to scan a webpage and take relevant data from it. This project provides useful soccer tips and can be ran locally on your pc.
 
