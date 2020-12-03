@@ -3,7 +3,6 @@ require 'nokogiri'
 require 'byebug'
 require_relative '../lib/web_scraper'
 
-#rubocop:disable Metrics/ClassLength
 def welcome
   new_tips = WeekendTips.new
   input = ''
@@ -17,21 +16,20 @@ def welcome
   sleep 2
   puts '------------------------------------------'
   puts new_tips.tip_detail(input)
-  puts 'would you like to see more soccer tips?'
-  puts 'yes or No'
-  choice = ''
-  until choice.match?(/^yes$|^no$/)
-    puts 'please type Yes or No' if choice != ''
-    choice = gets.chomp.downcase
-    if choice == 'yes'
-      puts '--------------------------------'
-      welcome
-    else
-      puts '------------------------------'
-      puts 'Goodbye! Thanks for using this app..'
-      puts '--------------------------------'
-    end
+end
+puts 'would you like to see more soccer tips?'
+puts 'yes or No'
+choice = ''
+until choice.match?(/^yes$|^no$/)
+  puts 'please type Yes or No' if choice != ''
+  choice = gets.chomp.downcase
+  if choice == 'yes'
+    puts '--------------------------------'
+    welcome
+  else
+    puts '------------------------------'
+    puts 'Goodbye! Thanks for using this app..'
+    puts '--------------------------------'
   end
 end
-#rubocop:enable Metrics/ClassLength
 welcome
