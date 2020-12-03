@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-=======
-#!usr/bin/env ruby
->>>>>>> 2f6ac45...  adds readme file and test file for the project
 require 'open-uri'
 require 'nokogiri'
 require 'byebug'

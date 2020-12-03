@@ -1,18 +1,6 @@
 # web_scraper_bot
-<<<<<<< HEAD
 this is a Ruby Capstone project for building a bot that scraps selected data from a web page
- This program's purpose is to scan a webpage and take relevant data from it. This project provides useful soccer tips.
-
-In this project, user will find 24 weekely soccer tips from experts.
-=======
-this is a milestone project for building a bot that scraps selected data from a web page
-
-# ruby_web_scraper
-
-> This program's purpose is to scan a webpage and take relevant data from it. This project provides useful meditation tips to further enhance someone's meditation skill.
-
-In this project, user will find 10 best tips for meditation beginners.
->>>>>>> 2f6ac45...  adds readme file and test file for the project
+ This program's purpose is to scan a webpage and take relevant data from it. This project provides useful soccer tips and can be ran locally on your pc.
 
 ## Built With
 
@@ -30,10 +18,6 @@ In this project, user will find 10 best tips for meditation beginners.
 
 ### How_to_use
 
-<<<<<<< HEAD
-=======
-![video](./asset/bot_capstone.png)
->>>>>>> 2f6ac45...  adds readme file and test file for the project
 
 ### Prerequisites
 
@@ -62,22 +46,14 @@ Step 3: Install necessary dependencies
 Step 4: Run the app
 
 ```
-<<<<<<< HEAD
 'bin/scraper.rb'
-=======
-'bin/webscraper.rb'
->>>>>>> 2f6ac45...  adds readme file and test file for the project
 ```
 ## How to Test
 1. Clone the repo to your local folder
 2. cd into the folder
 3. install rspec by gem install rspec
 4. Run rspec .
-<<<<<<< HEAD
 5. 3 examples, 0 failures will be output.
-=======
-5. 15 examples, 0 failures will be output.
->>>>>>> 2f6ac45...  adds readme file and test file for the project
 ​
 
 ## Author

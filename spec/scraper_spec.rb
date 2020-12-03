@@ -1,12 +1,7 @@
 require_relative '../lib/web_scraper'
 
-<<<<<<< HEAD
 describe WeekendTips do
   test_scraper = WeekendTips.new
-=======
-describe Weekend_tips do
-  test_scraper = Weekend_tips.new
->>>>>>> 2f6ac45...  adds readme file and test file for the project
   wrong = 26
   right = 6
 
