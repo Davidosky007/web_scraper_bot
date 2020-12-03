@@ -2,6 +2,7 @@ require 'open-uri'
 require 'nokogiri'
 require 'byebug'
 require_relative '../lib/web_scraper'
+require_relative '../lib/interface_bot'
 
 def welcome
   new_tips = WeekendTips.new
@@ -18,24 +19,4 @@ def welcome
   puts new_tips.tip_detail(input)
   switch
 end
-
-def switch
-  puts 'would you like to see more soccer tips?'
-  puts 'yes or No'
-  choice = ''
-  until choice.match?(/^yes$|^no$/)
-    puts 'please type Yes or No' if choice != ''
-    choice = gets.chomp.downcase
-  end
-
-  if choice == 'yes'
-    puts '--------------------------------'
-    welcome
-  else
-    puts '------------------------------'
-    puts 'Goodbye! Thanks for using this app..'
-    puts '--------------------------------'
-  end
-end
-
 welcome
