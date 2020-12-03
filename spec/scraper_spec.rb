@@ -19,5 +19,9 @@ describe WeekendTips do
     it 'returns the soccer predition details' do
       expect(test_scraper.tip_detail(right)).to be_a(String)
     end
+
+    it 'returns false the wrong number is inputed' do
+      expect(test_scraper.input_check(wrong)).to eql(false)
+    end
   end
 end
