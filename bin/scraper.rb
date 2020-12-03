@@ -1,3 +1,8 @@
+<<<<<<< HEAD
+=======
+#!usr/bin/env ruby
+
+>>>>>>> fc13f44... fixes test and linter errors
 require 'open-uri'
 require 'nokogiri'
 require 'byebug'
