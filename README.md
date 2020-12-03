@@ -17,7 +17,7 @@ This is a Ruby Capstone project for building a bot that scraps selected data fro
 - If the input provided by the user is between 1 to 25, then the soccer tips and details are displayed.
 
 ### How_to_use
-(./asset/read.png)
+![screenshot](/Assets/images/project-shoot1.png)
 
 ### Prerequisites
 
