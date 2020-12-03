@@ -3,6 +3,7 @@ require 'nokogiri'
 require 'byebug'
 require_relative '../lib/web_scraper'
 
+#rubocop:disable Metrics/ClassLength
 def welcome
   new_tips = WeekendTips.new
   input = ''
@@ -32,4 +33,5 @@ def welcome
     end
   end
 end
+#rubocop:enable Metrics/ClassLength
 welcome
